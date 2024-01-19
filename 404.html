@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ad Mortem</title>
+    <script type="text/javascript">
+      var siteBaseUrl = "https://archive.quake.world/admortem/";
+      var currentUrl = window.location.href;
+      var currentPath = encodeURIComponent(currentUrl.replace(siteBaseUrl, ""));
+      window.location.href = siteBaseUrl + "?goto=" + currentPath;
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
